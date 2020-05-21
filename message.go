@@ -231,7 +231,7 @@ func ImpinjEnableCutomMessage(id uint32) []byte {
 		uint16(ImpinjEnableCutomMessageHeader), //type
 		uint32(23),                             //length
 		uint32(id),                             //id
-		uint32(25822),                          //vendor id
+		uint32(25882),                          //vendor id
 		uint8(22),                              //subtype
 		llrpStatus,
 	}
